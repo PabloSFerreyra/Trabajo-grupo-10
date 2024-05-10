@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicia de Cupcakes - Contacto</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+</head>
+<body>
+    <!-- Encabezado y Menú de Navegación -->
+    <header>
+        <img src="./img/logoipsum-298.svg" alt="Logoipsum" />
+        <h1>Delicia de Cupcakes</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./productos.html">Productos</a>
+            <a href="./sobre-nosotros.html">Sobre nosotros</a>
+            <a href="./contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <!-- Contenido del formulario de contacto -->
+    <section class="cupcake-section">
+        <section class="cupcake-section">
+         <h2>Contacto</h2>
+         <p>¡Contáctanos para realizar tu pedido o para más información!</p>
+         <p>Teléfono: 123-456-789</p>
+         <p>Email: info@deliciadecupcakes.com</p><br><br>
+
+        <form id="contactForm" onsubmit="return validateForm()">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Teléfono:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <label for="reason">Razón de contacto:</label><br>
+            <select id="reason" name="reason" required>
+                <option value="">Seleccione una opción</option>
+                <option value="consulta">Consulta</option>
+                <option value="pedido">Pedido</option>
+                <option value="sugerencia">Sugerencia</option>
+            </select><br><br>
+
+            <label for="subscribe">Suscribirse a nuestro boletín:</label>
+            <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+            <label for="how">¿Cómo nos encontraste?:</label><br>
+            <input type="radio" id="internet" name="how" value="internet">Internet<br>
+            <input type="radio" id="friends" name="how" value="friends">Amigos<br>
+            <input type="radio" id="other" name="how" value="other">Otro<br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Cupcakes Deliciosos - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
