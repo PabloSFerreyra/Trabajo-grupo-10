@@ -91,3 +91,25 @@ footer {
     height: auto;
 }
 
+#error {
+    opacity: 0%;
+}
+
+input[type='submit'] {
+    background-color: #00ff55;
+    color: white;
+    width: 100px;
+    height: 25px;
+    border: none;
+    margin-bottom: 10px;
+    transition: all .2s;
+}
+
+input[type='submit']:hover {
+    background-color: #60ff95;
+}
+
+input[type='submit']:active {
+    background-color: #fff;
+    color: #00ff55;
+}
