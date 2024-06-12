@@ -1,0 +1,27 @@
+{
+  "name": "tp-g10",
+  "version": "0.1.1",
+  "description": "Proyecto del grupo N°10 para codo a codo node comision 241313.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloSFerreyra/Trabajo-grupo-10.git"
+  },
+  "author": "codo a codo - grupo 10",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloSFerreyra/Trabajo-grupo-10/issues"
+  },
+  "homepage": "https://github.com/PabloSFerreyra/Trabajo-grupo-10#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
